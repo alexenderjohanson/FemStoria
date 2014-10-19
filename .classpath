@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/gsy/femstoria/restful/IAsyncResponseHandler.java|com/gsy/femstoria/dummy/DummyContent.java|com/gsy/femstoria/StoryListActivity.java|com/gsy/femstoria/OfferHelpActivity.java|com/gsy/femstoria/OutgoingCallReceiver.java|com/gsy/femstoria/SignUpActivity.java|com/gsy/femstoria/Testtest.java" kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/org.json.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-annotations-2.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-core-2.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-databind-2.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/admin/Documents/AndroidSDK/sdk/extras/android/support/v13/android-support-v13.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

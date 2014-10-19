@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FemStoria</string>
+    <string name="title_story_detail">Story Detail</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="post_a_story">Share your story</string>
+    <string name="offer_help">Offer Help</string>
+    <string name="proceed">Proceed</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_id">265589410142586</string>
+    <string name="post_story_annonymous">Post anonymously</string>
+    <string name="post_story_hint">Your story…</string>
+    <string name="post_story_post">Share Story</string>
+    <string name="common_anonymous">Anonymous</string>
+    <string name="general_seconds">%s seconds ago</string>
+    <string name="general_minutes">%s minutes ago</string>
+    <string name="general_hours">%s hours ago</string>
+    <string name="general_days">%s days ago</string>
+    <string name="general_weeks">%s weeks ago</string>
+    <string name="general_months">%s months ago</string>
+    <string name="loading">Loading stories...</string>
+    <string name="common_hugged">Hugged</string>
+    <string name="common_hug">Hug</string>
+    <string name="name">Name</string>
+    <string name="posting">Posting...</string>
+    <string name="hugs">%d Hugs</string>
+    <string name="navigation_send_feedback">Send feedback</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main">FemStoria</string>
+    <string name="navigation_title_share_a_story">Share your story</string>
+    <string name="navigation_title_stories">Stories</string>
+    <string name="title_activity_testtest">Testtest</string>
+    <string name="action_example">Example action</string>
+    <string name="feedback_title">FemStoria Feedback</string>
+    <string name="feedback_email">femstoria@gmail.com</string>
+
+</resources>

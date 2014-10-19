@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlStory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/svStory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp" >
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/name" />
+
+            <CheckBox
+                android:id="@+id/cbAnonymous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etName"
+                android:lines="1"
+                android:text="@string/post_story_annonymous"
+                android:textSize="11sp"
+                android:layout_marginBottom="15dp" />
+
+            <EditText
+                android:id="@+id/etStory"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cbAnonymous"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:ems="10"
+                android:hint="@string/post_story_hint"
+                android:inputType="textMultiLine|textCapSentences" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etStory"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/submit_button_selector"
+                android:enabled="false"
+                android:text="@string/post_story_post"
+                android:textColor="@color/action_bar_text" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

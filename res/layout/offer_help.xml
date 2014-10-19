@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="Your story..."
+        android:inputType="textMultiLine"
+        android:text="don&apos;t you worry about those guys. You know what you&apos;re worth and the fact that you&apos;ve reached this far proves you&apos;re destined for more. You can always talk to the person who is in charge of organising meetings and directly get info from that person. Yu could also always just keep one step ahead of them and maybe write an email to your boss explaining your situation. I&apos;m sure things will turn for the better as long as you&apos;re headstrong and that you don&apos;t give up." >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:paddingTop="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etHelp"
+        android:text="Offer Help" />
+    
+    </RelativeLayout>
+
+</ScrollView>

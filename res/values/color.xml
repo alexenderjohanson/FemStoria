@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="meta_font_color">#0B3B39</color>
+    <color name="header_color">#0C575C</color>
+    <color name="option">#21B6C3</color>
+    <color name="story_font_color">#190707</color>
+    <color name="devider">#00FFFF</color>
+    <color name="cell_color">#FFFFFF</color>
+    <color name="cell_backgrond">#D7DADB</color>
+    <color name="action_bar_text">#F6F6F6</color>
+    <color name="light_text">#FFFFFF</color>
+    <color name="femstoria_green">#2E9DA4</color>
+    <color name="femstoria_green_pressed">#1D8C93</color>
+    <color name="femstoria_green_disabled">#D5EBED</color>
+    <color name="gray">#666666</color>
+    <color name="light_gray">#aaa</color>
+    <color name="orange">#f48244</color>
+    <color name="orange_pressed">#E37133</color>
+    <color name="orange_disabled">#F8B48F</color>
+    <color name="action_bar_color">#AA44BAC0</color>
+</resources>
